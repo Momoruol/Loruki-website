@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Loruki | Host em Nuvem para Todos</title>
+		<link rel="stylesheet" href="./css/utilitarios.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<!--Navbar-->
+		<div class="navbar">
+			<div class="container flex">
+				<h1 class="logo">Loruki.</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="docs.html">Docs</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!--Showcase-->
+		<section class="showcase">
+			<div class="container grid">
+				<div class="showcase-text">
+					<h1>Deploy de forma Eficiente</h1>
+					<p>
+						Faça deploy de todo tipo de aplicativo web, desde
+						websites staticos para autonomos, até os desenvolvidos
+						em larga escala. Preencha o formulario e teste uma demo
+						de nossa plataforma.
+					</p>
+					<a href="servico.html" class="btn btn-outline"
+						>Saiba Mais</a
+					>
+				</div>
+				<div class="showcase-form card">
+					<h2>Solicitar Demo</h2>
+					<form
+						name="contact"
+						method="POST"
+						netlify-honeypot="bot-field"
+						data-netlify="true"
+					>
+						<input type="hidden" name="form-name" value="contact" />
+						<p class="hidden">
+							<label
+								>Don't fill this out if you're human:
+								<input name="bot-field"
+							/></label>
+						</p>
+						<div class="form-control">
+							<input
+								type="text"
+								name="nome"
+								placeholder="Nome"
+								required
+							/>
+						</div>
+						<div class="form-control">
+							<input
+								type="text"
+								name="Empresa"
+								placeholder="Empresa"
+								required
+							/>
+						</div>
+						<div class="form-control">
+							<input
+								type="email"
+								name="email"
+								placeholder="Email"
+								required
+							/>
+						</div>
+						<input
+							type="submit"
+							value="Enviar"
+							class="btn btn-primary"
+						/>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- Stats -->
+		<section class="stats">
+			<div class="container">
+				<h3 class="stats-heading text-center my-1">
+					Seja muito bem vindo a melhor plataforma para construir sua
+					aplicação com arquitetura moderna e intuitiva
+				</h3>
+				<div class="grid grid-3 text-center my-4">
+					<div>
+						<i class="fas fa-server fa-3x"></i>
+						<h3>12,612,805</h3>
+						<p class="text-secondary">Deployments</p>
+					</div>
+					<div>
+						<i class="fas fa-database fa-3x"></i>
+						<h3>280 TB</h3>
+						<p class="text-secondary">Publicados</p>
+					</div>
+					<div>
+						<i class="fas fa-project-diagram fa-3x"></i>
+						<h3>23,005</h3>
+						<p class="text-secondary">Projetos</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--CLI-->
+		<section class="cli">
+			<div class="containe grid">
+				<img src="images/cli.png" alt="" />
+				<div class="card">
+					<h3>Facil de usar, Cli multiplataforma</h3>
+				</div>
+				<div class="card">
+					<h3>Faça seu deploy em segundos</h3>
+				</div>
+			</div>
+		</section>
+		<!--Cloud-->
+		<section class="cloud bg-primary my-2 py-2">
+			<div class="container grid">
+				<div class="text-center">
+					<h2 class="lg">Extremo Hosting em nuvem</h2>
+					<p class="lead my-1">
+						Hosting em nuvem como você nunca viu. Rápido, eficiente
+						e escalavel
+					</p>
+					<a href="servico.html" class="btn btn-dark">Leia Mais</a>
+				</div>
+				<img src="images/cloud.png" alt="" />
+			</div>
+		</section>
+		<!--Linguagens-->
+		<section class="languages">
+			<h2 class="md text-center my-2">Linguagens Suportadas</h2>
+			<div class="container flex">
+				<div class="card">
+					<h4>Node.js</h4>
+					<img src="images/logos/node.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>Python</h4>
+					<img src="images/logos/python.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>C#</h4>
+					<img src="images/logos/csharp.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>Ruby</h4>
+					<img src="images/logos/ruby.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>PHP</h4>
+					<img src="images/logos/php.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>Scala</h4>
+					<img src="images/logos/scala.png" alt="" />
+				</div>
+				<div class="card">
+					<h4>Clojure</h4>
+					<img src="images/logos/clojure.png" alt="" />
+				</div>
+			</div>
+		</section>
+		<!--Footer-->
+		<footer class="footer bg-dark py-5">
+			<div class="container grid grid-3">
+				<div>
+					<h1>Loruki.</h1>
+					<p>Copyright &copy; 2025</p>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="servicos.html">Serviços</a></li>
+						<li><a href="docs.html">Documentação</a></li>
+					</ul>
+				</nav>
+				<div class="social">
+					<a href="" class="fab fa-github fa-2x"></a>
+					<a href="" class="fab fa-facebook fa-2x"></a>
+					<a href="" class="fab fa-instagram fa-2x"></a>
+					<a href="" class="fab fa-twitter fa-2x"></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
